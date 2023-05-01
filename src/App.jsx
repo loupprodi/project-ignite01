@@ -62,21 +62,13 @@ export const App = () => {
           {posts.map((post) => {
             return (
               <Post
+              key={post.id}
                 author={post.author}
                 content={post.content}
                 publishedAt={post.publishedAt}
-                key={post.id}
               />
             );
           })}
-          {/* <Post
-            author="Luiz Prosdoskimi"
-            content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure non debitis, aut quam amet eius iusto est libero illum quo deserunt nihil odit ipsum, nemo alias nam? Eos, culpa laudantium!"
-          />
-          <Post
-            author="Felipe John"
-            content="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure non debitis, aut quam amet eius iusto est libero illum quo deserunt nihil odit ipsum, nemo alias nam? Eos, culpa laudantium!"
-          /> */}
         </main>
       </div>
     </div>
