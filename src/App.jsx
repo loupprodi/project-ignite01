@@ -46,7 +46,7 @@ const posts = [
       { type: "link", content: "👉 jane.design/doctorcare" },
       // { type: "link", content: "#novoprojeto #nlw #rocketseat" },
     ],
-    publishedAt: new Date("2023-04-27 20:00:00"),
+    publishedAt: new Date("2023-04-26 20:00:00"),
   },
 ];
 
